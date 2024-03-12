@@ -20,14 +20,20 @@
     > you need to convert a ```vector``` data in csv file into a ```raster`` equivalent and store it in .geotiff format. This process entails a demand to first develop a sampling scheme that iteratevely samples data at random paces from the csv file to generate several geotiff iamges (one image for each sample). All samples are drawn from the same area. then simply to compare the images, find their pixel representation (e.g., store the representation in an array), then use the arrays as distributions to compare using the Root Mean Square Error (RMSE). The target is to find an image that is most simialr to a reference image (a.k.a. query image).  
 5. Then, given a reference image, Find the image that is nearest to this reference image, nearest in terms of similar distributions measured by RMSE. The lowest the RMSE, the more similar the images compared! 
 
+     ```A CSV file is just a table and a TIFF is a raster image with data in each cell (pixel).  You will need to convert your tabular data to points then you can generate a raster from the point data.```
 ***The main research question is how to convert vector csv file into a raster tiff or geotiff image, this process is known as ```Rasterize``` ?!!*** 
 Also, the opposite is interesting for us, 
 > get some insights:
     - [Converting Vector (.shp) to Raster (.tiff) using Python GDAL library](https://stackoverflow.com/questions/59821554/converting-vector-shp-to-raster-tiff-using-python-gdal-library)
-    - here is a very nice example starting code to ```rasterize```: [Rasterize (Vector Shapefile to Raster)](https://hydro-informatics.com/jupyter/geo-convert.html). look into the **Rasterize (Vector Shapefile to Raster section**!!
+    - here is a very nice example starting code to ```rasterize```: [Rasterize (Vector Shapefile to Raster)](https://hydro-informatics.com/jupyter/geo-convert.html). look into the **Rasterize (Vector Shapefile to Raster section)**!!
     - [Raster to Polygon](https://hydro-informatics.com/jupyter/geo-convert.html)
-    - this is also a very nice example [Convert between CSV and GeoTIFF with GDAL in Python
-](https://www.youtube.com/watch?v=zLNLG0j13Cw)
+    - this is also a very nice example [Convert between CSV and GeoTIFF with GDAL in Python](https://www.youtube.com/watch?v=zLNLG0j13Cw)
+    - more instructions and starting code here: [Convert Between GeoTIFF and CSV](https://mapscaping.com/convert-between-geotiff-and-csv/)
+    - and more! [Example - Convert dataset to raster (GeoTiff)](https://corteva.github.io/rioxarray/stable/examples/convert_to_raster.html)
+    - [Rasterising vectors & vectorising rasters](https://docs.digitalearthafrica.org/en/latest/sandbox/notebooks/Frequently_used_code/Rasterise_vectorise.html)
+    - [Working with Raster data](https://kodu.ut.ee/~kmoch/geopython2020/L5/raster.html)
+    - [Convert Point Data to Raster](https://zia207.github.io/geospatial-python.io/lesson_06_working-with-raster-data.html#Convert-Point-Data-to-Raster)
+
 ***Team members***
 - [Dr. Isam Al Jawarneh](https://isamaljawarneh.github.io/)
 - [your name](your site or linkedin)
