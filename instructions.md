@@ -24,8 +24,10 @@
 Also, the opposite is interesting for us, 
 > get some insights:
     - [Converting Vector (.shp) to Raster (.tiff) using Python GDAL library](https://stackoverflow.com/questions/59821554/converting-vector-shp-to-raster-tiff-using-python-gdal-library)
-    - here is a very nice example starting code to ```rasterize```: [Rasterize (Vector Shapefile to Raster)](https://hydro-informatics.com/jupyter/geo-convert.html). look into the **Rasterize (Vector Shapefile to Raster) section**!!
+    - here is a very nice example starting code to ```rasterize```: [Rasterize (Vector Shapefile to Raster)](https://hydro-informatics.com/jupyter/geo-convert.html). look into the **Rasterize (Vector Shapefile to Raster section**!!
     - [Raster to Polygon](https://hydro-informatics.com/jupyter/geo-convert.html)
+    - this is also a very nice example [Convert between CSV and GeoTIFF with GDAL in Python
+](https://www.youtube.com/watch?v=zLNLG0j13Cw)
 ***Team members***
 - [Dr. Isam Al Jawarneh](https://isamaljawarneh.github.io/)
 - [your name](your site or linkedin)
