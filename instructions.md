@@ -36,5 +36,5 @@ Also, the opposite is interesting for us,
 
 ***Team members***
 - [Dr. Isam Al Jawarneh](https://isamaljawarneh.github.io/)
-- [your name](your site or linkedin)
-- [your name](your site or linkedin)
+- [Eng. Ali A. Alsalama](your site or linkedin)
+- [Eng. Ahmed A. Kubba](your site or linkedin)
