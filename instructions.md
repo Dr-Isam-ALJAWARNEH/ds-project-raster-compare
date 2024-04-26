@@ -1,5 +1,20 @@
 # Instructions
-## follow the following instructions
+## follow the instructions
+
+------------------------------------
+
+recapitulating the few points and comments that we have discussed during our meeting yesterday of what need to be done:
+
+- adding a layer with the value of another feature the geoTiff image. For example trip_distance in the taxi mobility data that you are using currently. As we discussed, better to focus your analysis on the NYC air quality data, adding pm value as a layer in addition to long/latitude of the points.
+Generating 1000 images (geoTIFF) from the data that you have by capturing samples from the data. Versify the samples for several images. For example, generate some images based on stratified-like sampling. Review the codes that we have discussed in the class, where we consider the geohash as a stratum and take the sample percentage (fraction) from each geohash bracket independently. Stratified sampling should generate maps (therefore images) with similar empirical distribution that resembles the population data (the original data). Also, generate some other images using sample fractions that are different from one neighbourhood to another, this should generate images that differ from the reference image with which you need to compare.
+You keep one image generated as a reference image with which you want to search for the most similar image from the other 1000 images generated.
+Then your images search algorithm should proceed as follows: considering the reference image , you are searching a database of images for an image that is the most similar in terms of the underlying distribution of data. Then, you vectorize the reference image and extract the distribution of data into an array. For example, for the air quality data, the array should contain two columns, neighbourhood and average pm, with each row corresponding to a neighbourhood and the average pm value in that neighbourhood. You do the same for the other images. Thereafter, you only need to use metrics such as RMSE, MAPE, Jensen-Shannon , or KL divergence to compare the two distributions. For example, for RMSE, the-smaller-the-better applies, meaning that the image (from the 1000 search images) that has the smallest RMSE is the one that is most similar to the reference image.
+I will update the instructions file with helpful materials, example starting code, and a recent paper that you can use as a reference to write the survey part (2-3 pages) of your final report for this project.
+
+
+
+
+----------------------------------------
 1. [ ] run the example starting code and familiarize yourself with some geosaptial processing techniques, including:
     - sampling
     - spatial join
