@@ -7,4 +7,4 @@ This project aims at developing a novel method to compare the geotiff images tha
 
 - [Dr. Isam Al Jawarneh](https://isamaljawarneh.github.io/) (Supervisor)
 - [write your name](your profile or linkedin)
-- [write your name](your profile or linkedin)
+- [Eng. Ahmed Kubba](https://www.linkedin.com/in/ahmed-ammar-a1131a126/)
