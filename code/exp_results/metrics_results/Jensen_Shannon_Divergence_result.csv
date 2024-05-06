@@ -1,0 +1,11 @@
+percent,Value,sample_number,comparing_time_in_second
+0.1,0.099245227,AQ_NYC_sample_30.tiff,203.2286925
+0.2,0.045587209,AQ_NYC_sample_22.tiff,227.1436014
+0.3,0.022386504,AQ_NYC_sample_6.tiff,238.3243735
+0.4,0.021723581,AQ_NYC_sample_19.tiff,243.9333584
+0.5,0.02138399,AQ_NYC_sample_43.tiff,238.5120463
+0.6,0.000792268,AQ_NYC_sample_38.tiff,264.3631432
+0.7,0.000611559,AQ_NYC_sample_47.tiff,269.8495183
+0.8,0.000193429,AQ_NYC_sample_2.tiff,269.9234345
+0.9,6.48E-05,AQ_NYC_sample_40.tiff,274.7447066
+random,0.014740348,AQ_NYC_sample_13.tiff,247.8508441
