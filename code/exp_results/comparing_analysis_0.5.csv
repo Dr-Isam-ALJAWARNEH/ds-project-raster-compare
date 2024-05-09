@@ -1,0 +1,5 @@
+Metric,Value,sample_number,comparing_time_in_second
+RMSE,1.1038254520605073,AQ_NYC_sample_43.tiff,239.63214993476868
+MAPE,11.713419108784041,AQ_NYC_sample_46.tiff,238.69214987754822
+Jensen_Shannon_Divergence,0.021383989962696647,AQ_NYC_sample_43.tiff,238.51204633712769
+Kullback_Leibler_Divergence,0.06340761546322211,AQ_NYC_sample_43.tiff,238.8018078804016
